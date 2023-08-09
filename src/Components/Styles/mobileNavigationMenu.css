@@ -1,0 +1,65 @@
+
+@media screen and (max-width: 1000px) {
+  
+    .customScrollContainer  {
+      display: none;
+    }
+    #navbarAlign {
+      display: none;
+    }
+    :root {
+      --mobileMenuContainerHeight: 58px;
+      --mobileMenuContainerWidth: 94.5%;
+    }
+     
+  .mobileMenusContainer {
+  
+    height: var(--mobileMenuContainerHeight);
+    width: var(--mobileMenuContainerWidth);
+    border-radius: 58px 58px 0px 0px;
+    background-color: rgb(31, 31, 31);
+  
+    position:fixed ;
+    bottom: 0px;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9%;
+  }
+  .mobileMenusConrainerGradient {
+    height: var(--mobileMenuContainerHeight);
+    width: var(--mobileMenuContainerWidth);
+    background: linear-gradient(to left, #FF0000 10%,#f59f00 15%, #f59f00 85%, #FF0000 90%);
+    position: fixed;
+    bottom: 2px;
+    border-radius: 120px 120px 0px 0px;
+    z-index: 3; 
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .mobileMenus{
+  height: 42px;
+  width: 42px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: height 0.3s, width 0.3s, transform 0.3s;
+  }
+  #home{
+    background-image: url("../Images/home2.png");
+  }
+  #miniProjects{
+    background-image: url("../Images/miniProjects2.png");
+    height: 60px;
+    width: 64px;
+    transform:translateY(-30%) ;
+  }
+  #randomThoughts{
+    background-image: url("../Images/randomThoughts.png");
+  
+  }
+
+  }
