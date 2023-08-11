@@ -1,1 +1,1 @@
-Mini Projects Page : https://madhavendra.me/mini-projects/
+Mini Projects Page Link: https://madhavendra.me/mini-projects/
