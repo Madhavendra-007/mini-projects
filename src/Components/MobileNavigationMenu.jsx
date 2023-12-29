@@ -7,9 +7,9 @@ const MobileNavigationMenu = () => {
     
     <div className="mobileMenusConrainerGradient"></div>
     <div className="mobileMenusContainer">
-        <div className="mobileMenus" id="home"></div>
-        <div className="mobileMenus" id="miniProjects"></div>
-        <div className="mobileMenus" id="randomThoughts"></div>
+    <a href="https://madhavendra.me/"><div className="mobileMenus" id="home"></div></a>
+        <a href="/"><div className="mobileMenus" id="miniProjects"></div></a>
+        <a href="/"><div className="mobileMenus" id="randomThoughts"></div></a>
     </div>
         </>  )
 }
