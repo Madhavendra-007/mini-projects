@@ -7,7 +7,7 @@ const MiniProjects = () => {
     <div className='comingSoon'>
       <p>COMING SOON
       </p>
-      <div>Currently learning Data Science. Exciting projects Coming Soon!</div>
+      <div>Currently learning Data Science. Exciting projects Coming Soon !!</div>
       </div>
    
 </>
